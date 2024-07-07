@@ -1,0 +1,315 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #9eb8d0, #6d6d71);
+}
+
+/*(to bottom, #9eb8d0, #6d6d71)
+#9eb8d0*/
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#yusuf {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#hi {
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+
+
+.head ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    
+}
+
+
+.head li{
+    margin: 0 1em;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#9eb8d0;
+    transition: all 0.3s linear;
+}
+
+
+#en {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+#en:hover {
+    color: burlywood;
+    
+}
+
+
+
+#en:hover {
+    text-decoration: underline;
+}
+
+#hakkimda{
+    text-shadow: 0px -3px #6e869a;
+
+}
+
+#hakkimda:hover{
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+}
+
+
+#fseth{
+    border-style:groove;
+    border-width: 5px;
+    border-color: #6e869a;
+    border-radius: 10px;    
+
+}
+
+
+
+#fsetedu{
+    border-style: groove;
+    border-width: 5px;
+    border-color: #6e869a;
+    border-radius: 10px;    
+
+}
+
+#fseth:hover legend:not(:hover){
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+    
+}
+
+#fsetedu:hover legend:not(:hover){
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+    
+}
+#fsetd:hover legend:not(:hover){
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+    
+}
+#fsete:hover legend:not(:hover){
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+    
+}
+
+
+#hello{
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 15px;
+}
+
+
+#egitim{
+    text-shadow: 0px -3px  #6e869a ;  /*rgba(206, 78, 97, 0.556)*/
+
+}
+
+#egitim:hover{
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+}
+
+#fsetd{
+    border-style: groove;
+    border-width: 5px;
+    border-color: #6d6d71;
+    border-radius: 10px;
+    
+}
+
+
+#fsete{
+    border-style: groove;
+    border-width: 5px;
+    border-color: #6d6d71;
+    border-radius: 10px;
+    
+}
+
+#fsete:hover legend:not(:hover){
+    letter-spacing: 2px;
+    
+}
+
+
+
+
+#lise{
+   font-size: 18px;
+   position: relative;
+   bottom: 30px; 
+   letter-spacing: 1px;    
+}
+
+
+#uni{
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+    letter-spacing: 1px; 
+}
+
+#deneyimler{
+    text-shadow: 0px -3px rgb(157, 129, 129);
+
+}
+
+#deneyimler:hover{
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+}
+
+
+#kahve{
+    letter-spacing: 1px;
+}
+
+#kdpng:hover{
+    height: 85px;
+    transition: ease-in-out 0.6s;
+}
+
+#exp1{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#nitelikler{
+    text-shadow: 0px -3px rgb(157, 129, 129);
+
+}
+
+#nitelikler:hover{
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+}
+
+
+main {
+    flex: 1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+fieldset {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #333;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+legend {
+    font-size: 1.5em;
+    padding: 0 0.5em;
+}
+
+.ability {
+    list-style: none;
+    padding: 0;
+}
+
+.ability li {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+#iletisim{
+    letter-spacing: 1px;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.contacts a {
+    margin: 0 0.5em;
+}
+
+
+.fa-instagram{
+    color: white;
+}
+
+.fa-instagram:hover{
+    color: purple;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0.5em 0;
+    }
+}
