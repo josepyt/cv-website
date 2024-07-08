@@ -5,19 +5,19 @@ document.addEventListener("DOMContentLoaded", function() {
         ability.addEventListener("mouseover", function() {
             switch (this.id) {
                 case "li1":
-                    this.textContent = "İyi";
+                    this.textContent = "Good";
                     break;
                 case "li2":
-                    this.textContent = "İyi";
+                    this.textContent = "Good";
                     break;
                 case "li3":
-                    this.textContent = "Orta Seviye";
+                    this.textContent = "Intermediate";
                     break;
                 case "li4":
-                    this.textContent = "Orta Seviye";
+                    this.textContent = "Intermediate";
                     break;
                 case "li5":
-                    this.textContent = "Orta Seviye";
+                    this.textContent = "Intermediate";
             }
         });
         
