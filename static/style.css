@@ -9,8 +9,6 @@ body {
     background: linear-gradient(to bottom, #9eb8d0, #6d6d71);
 }
 
-/*(to bottom, #9eb8d0, #6d6d71)
-#9eb8d0*/
 
 header {
     background-color: #333;
@@ -138,6 +136,11 @@ nav a:hover{
     
 }
 
+#fsetc:hover legend:not(:hover) {
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+}
+
 
 #hello{
     font-size: 18px;
@@ -174,9 +177,15 @@ nav a:hover{
     
 }
 
+#fsetc{
+    border-style: groove;
+    border-width: 5px;
+    border-color: #6d6d71;
+    border-radius: 10px;
+}
+
 #fsete:hover legend:not(:hover){
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;  
 }
 
 
@@ -272,6 +281,30 @@ legend {
     cursor: pointer;
 }
 
+#sertifikalar:hover{
+    letter-spacing: 2px;
+    transition: ease-in-out 0.6s;
+}
+
+
+
+#sertifikalar {
+    letter-spacing: 1px;
+    text-shadow: 0px -3px rgb(129, 108, 108)
+}
+
+.certList {
+    list-style: none;
+    padding: 0;
+}
+
+.certList li {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    display:inline-table;
+
+}
 
 #contact {
     background-color: #333;
