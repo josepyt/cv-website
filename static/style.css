@@ -301,9 +301,25 @@ legend {
 .certList li {
     position: relative;
     padding: 10px;
+    margin: 10px;
     cursor: pointer;
     display:inline-table;
+}
 
+.certList a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.certList img {
+    transition:ease-out 0.3s;
+}
+
+.certList img:hover {
+    transform: scale(1.5); 
 }
 
 #contact {
