@@ -78,3 +78,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+document.addEventListener('wheel', function(event) {
+    if (event.deltaY > 0) {
+      window.scrollBy(0, 100); 
+    } else {
+      window.scrollBy(0, -100);
+    } 
+});

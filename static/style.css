@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background: linear-gradient(to bottom, #9eb8d0, #6d6d71);
+    overflow: hidden;
 }
 
 
@@ -286,7 +287,7 @@ legend {
 .ability li {
     position: relative;
     padding: 10px;
-    cursor: pointer;
+    cursor: default;
 }
 
 #sertifikalar:hover{
